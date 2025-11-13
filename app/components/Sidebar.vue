@@ -4,7 +4,7 @@
       <div class="flex items-center space-x-2 mb-8">
         <NuxtLink to="/" class="flex items-center gap-2">
             <Icon name="mdi:school" size="28" class="text-blue-600" />
-            <h1 class="text-lg font-bold">EduBuilder</h1>
+            <h1 class="text-lg font-bold">KelasMu</h1>
         </NuxtLink>
       </div>
 
@@ -13,7 +13,7 @@
         <ul class="mb-8 space-y-2">
             <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
                 <NuxtLink>
-                    Home
+                    Beranda
                 </NuxtLink></li>
         </ul>
         <h2 class=" text-blue-600 font-semibold mb-2 uppercase">• Pembelajaran</h2>

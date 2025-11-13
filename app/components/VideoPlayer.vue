@@ -1,6 +1,8 @@
 <script setup>
+import { ref, onMounted, onBeforeUnmount, defineProps } from 'vue'
 import videojs from 'video.js'
 import 'video.js/dist/video-js.css'
+import 'videojs-youtube'
 
 const props = defineProps({
   src: { type: String, required: true }
@@ -12,11 +14,11 @@ let player
 onMounted(() => {
   player = videojs(videoPl.value, {
     controls: true,
-    autoplay: false,
     preload: 'auto',
     responsive: true,
     fluid: true,
-    sources: [{ src: props.src, type: 'video/mp4' }]
+    techOrder: ['youtube'],
+    sources: [{ src: props.src, type: 'video/youtube' }]
   })
 })
 
@@ -25,9 +27,8 @@ onBeforeUnmount(() => {
 })
 </script>
 
-
 <template>
-  <div class="w-full h-full bg-black rounded-2xl overflow-hidden">
-    <div ref="videoPl" class="video-js w-full h-full"></div>
+  <div class=" bg-black rounded-2xl overflow-hidden">
+    <video ref="videoPl" class="video-js vjs-big-play-centered w-full h-full" playsinline></video>
   </div>
 </template>

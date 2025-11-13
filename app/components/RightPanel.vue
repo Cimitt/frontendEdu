@@ -70,7 +70,7 @@ function saveQuiz() {
 
       <!-- pertanyaan -->
       <label class="block text-sm font-medium text-gray-700">Pertanyaan</label>
-      <input
+      <input6
         v-model="selectedQuiz.question"
         type="text"
         class="w-full mt-1 border rounded-lg p-2 mb-3 focus:ring-2 focus:ring-blue-400"

@@ -4,7 +4,7 @@
       <!-- Left Text -->
       <div>
         <h1 class="text-5xl md:text-6xl font-bold text-blue-600 mb-4">
-          Welcome to <span class="text-gray-900">EduBuilder</span>
+          Selamat Datang di<span class="text-gray-900"> Pendidikan Masadepan</span>
         </h1>
         <p class="text-gray-600 text-lg mb-8">
           Platform pembelajaran modern yang membantu guru membangun pengalaman belajar digital yang menarik dan mudah digunakan.
@@ -14,18 +14,20 @@
           <button
             class="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-all shadow-md"
           >
-            Coba Sekarang
+            <NuxtLink to="/loginas">
+               Coba Sekarang 
+            </NuxtLink>
           </button>
-          <a href="#about"
+          <NuxtLink href="#about"
             class="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-50 transition-all"
           >
             Pelajari Lebih Lanjut
-          </a>
+          </NuxtLink>
         </div>
       </div>
 
       <!-- Right Image -->
-      <div class="hidden md:block flex justify-center md:justify-end">
+      <div class="hidden md:block flex justify-center">
         <img
           src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
           alt="Education illustration"

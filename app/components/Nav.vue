@@ -5,26 +5,26 @@
       <div class="flex items-center gap-2">
         <NuxtLink to="/" class="flex items-center gap-2">
           <Icon name="mdi:school" size="28" class="text-blue-600" />
-          <span class="font-bold text-xl text-gray-800">EduBuilder</span>
+          <span class="font-bold text-xl text-gray-800">KelasMu</span>
         </NuxtLink>
       </div>
 
       <!-- Menu -->
       <ul class="hidden md:flex items-center gap-8 text-gray-700 font-medium">
-        <li><a href="/#home" class="hover:text-blue-600 transition-colors">Home</a></li>
-        <li><a href="/#features" class="hover:text-blue-600 transition-colors">Features</a></li>
-        <li><a href="/#about" class="hover:text-blue-600 transition-colors">About</a></li>
-        <li><a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a></li>
+        <li><a href="/#home" class="hover:text-blue-600 transition-colors">Beranda</a></li>
+        <li><a href="/#features" class="hover:text-blue-600 transition-colors">Fitur</a></li>
+        <li><a href="/#about" class="hover:text-blue-600 transition-colors">Tentang</a></li>
+        <li><a href="#contact" class="hover:text-blue-600 transition-colors">Kontak</a></li>
       </ul>
 
       <!-- Button -->
       <div class="hidden md:block">
-        <a
-          href="#start"
+        <NuxtLink to="/loginas"
+          
           class="bg-blue-600 text-white px-5 py-2 rounded-lg shadow hover:bg-blue-700 transition-all"
         >
-          Coba Sekarang
-        </a>
+          Coba KelasMu
+        </NuxtLink>
       </div>
 
       <!-- Mobile Menu Button -->
@@ -33,7 +33,6 @@
       </button>
     </nav>
 
-    <transition name="fade">
       <div
         v-if="isOpen"
         class="md:hidden bg-white shadow-lg flex flex-col items-center py-4 space-y-4"
@@ -47,10 +46,9 @@
           class="bg-blue-600 text-white px-5 py-2 rounded-lg shadow hover:bg-blue-700 transition-all"
           @click="toggleMenu"
         >
-          Get Started
+          Coba KelasMu
         </a>
       </div>
-    </transition>
   </header>
 </template>
 

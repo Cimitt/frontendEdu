@@ -1,6 +1,8 @@
+<script></script>
+
 <template>
     <div class="max-w-6xl mx-auto px-6 md:flex items-center gap-10">
-      <div class="md:w-1/2">
+      <div class="md:w-1/2 transition-all">
         <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" class="rounded-2xl shadow-lg" alt="About">
       </div>
       <div class="md:w-1/2 mt-8 md:mt-0">
