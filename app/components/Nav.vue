@@ -37,17 +37,17 @@
         v-if="isOpen"
         class="md:hidden bg-white shadow-lg flex flex-col items-center py-4 space-y-4"
       >
-        <a href="/#home" class="hover:text-blue-600" @click="toggleMenu">Home</a>
-        <a href="/#features" class="hover:text-blue-600" @click="toggleMenu">Features</a>
-        <a href="/#about" class="hover:text-blue-600" @click="toggleMenu">About</a>
-        <a href="/#contact" class="hover:text-blue-600" @click="toggleMenu">Contact</a>
-        <a
+        <NuxtLink to="/#home" class="hover:text-blue-600" @click="toggleMenu">Home</NuxtLink>
+        <NuxtLink to="/#features" class="hover:text-blue-600" @click="toggleMenu">Features</NuxtLink>
+        <NuxtLink to="/#about" class="hover:text-blue-600" @click="toggleMenu">About</NuxtLink>
+        <NuxtLink to="/#contact" class="hover:text-blue-600" @click="toggleMenu">Contact</NuxtLink>
+        <NuxtLink
           href="#start"
           class="bg-blue-600 text-white px-5 py-2 rounded-lg shadow hover:bg-blue-700 transition-all"
           @click="toggleMenu"
         >
           Coba KelasMu
-        </a>
+        </NuxtLink>
       </div>
   </header>
 </template>

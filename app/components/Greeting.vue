@@ -1,39 +1,36 @@
-<template>
-  <section class="bg-gray-50 min-h-[50vh] flex items-center">
-    <div class="max-w-6xl mx-auto px-6 text-center md:text-left grid md:grid-cols-2 gap-12 items-center">
-      <!-- Left Text -->
-      <div>
-        <h1 class="text-5xl md:text-6xl font-bold text-blue-600 mb-4">
-          Selamat Datang di<span class="text-gray-900"> Pendidikan Masadepan</span>
-        </h1>
-        <p class="text-gray-600 text-lg mb-8">
-          Platform pembelajaran modern yang membantu guru membangun pengalaman belajar digital yang menarik dan mudah digunakan.
-        </p>
+<script>
 
-        <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-          <button
-            class="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-all shadow-md"
-          >
-            <NuxtLink to="/loginas">
-               Coba Sekarang 
-            </NuxtLink>
-          </button>
-          <NuxtLink href="#about"
-            class="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-50 transition-all"
-          >
-            Pelajari Lebih Lanjut
-          </NuxtLink>
+</script>
+
+<template>
+  <div style="background-image: url(https://readymadeui.com/images/bg-gradient.webp); background-size: cover">
+      <div class="px-4 sm:px-10 py-12 md:py-[120px]">
+        <div class="relative max-w-screen-xl mx-auto">
+          <div class="max-w-3xl mx-auto text-center">
+            <h1 class="lg:text-[54px] md:text-5xl text-4xl text-slate-900 font-bold !leading-tight mb-6">
+              Selamat Datang di <br/> <span class="text-blue-700">Pendidikan Masadepan</span>
+            </h1>
+            <p class="text-slate-600 text-base font-medium leading-relaxed">
+              The all-in-one app to finally master your workflow. Organize tasks effortlessly, focus without distractions,
+              and accomplish more every day—just like 100,000+ professionals.
+            </p>
+
+            <div class="mt-12 flex items-center justify-center flex-wrap gap-6">
+              <button
+                class="px-5 py-3 rounded-full text-base font-medium tracking-wide text-white border border-blue-700 bg-indigo-700 hover:bg-indigo-800 transition-all cursor-pointer">
+                Start Free Trial
+              </button>
+              <button
+                class="px-5 py-3 rounded-full text-base font-medium tracking-wide text-slate-900 border border-gray-300 bg-white hover:bg-gray-100 transition-all cursor-pointer">
+                How It Works
+              </button>
+            </div>
+          </div>
+
+          <div class="max-w-5xl w-full mx-auto mt-20">
+            <img src="https://readymadeui.com/images/kpi-img-3.webp" class="w-full" alt="kpi-img-3" />
+          </div>
         </div>
       </div>
-
-      <!-- Right Image -->
-      <div class="hidden md:block flex justify-center">
-        <img
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
-          alt="Education illustration"
-          class="rounded-2xl shadow-lg max-w-full w-[480px] h-auto object-cover"
-        />
-      </div>
     </div>
-  </section>
 </template>

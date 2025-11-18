@@ -7,11 +7,13 @@
     <section id="home">
         <Greeting />
     </section>
-    <section class="bg-white py-20" id="features">
+    <section class="bg-white py-20 mx-8" id="features">
         <Features />
     </section>
-    <section class="bg-gray-100 py-20" id="about">
+    <section class="py-20" id="about">
+      <div class="mx-8">
         <About />
+      </div>
     </section>
     <Footer />
   </div>
