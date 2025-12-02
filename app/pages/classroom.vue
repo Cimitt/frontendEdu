@@ -1,11 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="flex min-h-screen bg-white max-h-screen max-w-screen mx-auto overflow-hidden">
+  <div class="flex min-h-screen bg-white min-h-screen max-w-screen mx-auto overflow-hidden">
     <main class="flex-1 flex flex-col p-4">
       <header class="flex justify-between items-center mb-4 mx-4">
         <div class="flex items-center gap-2">
-          <NuxtLink to="/" class="flex items-center gap-2">
+          <NuxtLink to="/student" class="flex items-center gap-2">
             <Icon name="mdi:arrow-left" size="30" class="text-blue-600" />
             <span class="font-bold text-xl text-gray-800">Nama Kelas</span>
           </NuxtLink>

@@ -1,5 +1,9 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-  <aside class="w-64 bg-white border-r border-gray-200 p-6 flex flex-col justify-between hidden md:block">
+  <aside class="w-64 bg-white border-r border-gray-200 p-6 flex flex-col justify-between hidden lg:block">
     <div>
       <div class="flex items-center space-x-2 mb-8">
         <NuxtLink to="/" class="flex items-center gap-2">
@@ -16,28 +20,14 @@
           </li>
         </ul>
         <h2 class="text-blue-600 font-semibold mb-2 uppercase">
-          • Pembelajaran
+          • chat
         </h2>
         <ul class="mb-8 space-y-2">
           <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
-            <NuxtLink> Kelas </NuxtLink>
-          </li>
-          <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
-            <NuxtLink>  </NuxtLink>
+            <NuxtLink> Chat </NuxtLink>
           </li>
         </ul>
 
-        <h2 class="text-xs text-blue-600 font-semibold mb-2 uppercase text-blue-500">
-          Settings
-        </h2>
-        <ul class="space-y-2">
-          <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
-            <NuxtLink> Setting </NuxtLink>
-          </li>
-          <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
-            <NuxtLink> Logout </NuxtLink>
-          </li>
-        </ul>
       </nav>
     </div>
   </aside>

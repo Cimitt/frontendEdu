@@ -1,26 +1,28 @@
 {
-  "name": "olympicad",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "motion-v": "^1.7.4",
-    "npm": "^11.6.3",
-    "nuxt": "^4.2.1",
-    "video.js": "^8.23.4",
-    "videojs-youtube": "^3.0.1",
-    "vue": "^3.5.24",
-    "vue-router": "^4.6.3"
-  },
-  "devDependencies": {
-    "@nuxt/icon": "^2.1.0",
-    "@nuxt/image": "^2.0.0",
-    "@nuxtjs/tailwindcss": "^6.14.0"
-  }
+	"name": "olympicad",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"motion-v": "^1.7.4",
+		"npm": "^11.6.3",
+		"nuxt": "^4.2.1",
+		"video.js": "^8.23.4",
+		"videojs-youtube": "^3.0.1",
+		"vue": "^3.5.24",
+		"vue-router": "^4.6.3"
+	},
+	"devDependencies": {
+		"@nuxt/icon": "^2.1.0",
+		"@nuxt/image": "^2.0.0",
+		"@nuxtjs/tailwindcss": "^6.14.0",
+		"@types/node": "^24.10.1",
+		"jsrepo": "^3.0.5"
+	}
 }

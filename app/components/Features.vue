@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Parallax from "./Parallax.vue";
 </script>
 
 <template>

@@ -1,6 +1,3 @@
-import { useRuntimeConfig } from "nuxt/app";
-
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
     head: {
@@ -8,15 +5,20 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: '2025-07-15',
+  compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@nuxt/image', 'motion-v/nuxt' ],
 
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/icon",
+    "@nuxt/image",
+    "motion-v/nuxt",
+  ],
 
-  runtimeConfig:{
-  public: {
-    apiBase: 'http://127.0.0.1:8000/api'
-  }
-}
-})
-
+  // ⬅ ENV Nuxt untuk base URL API Laravel
+  runtimeConfig: {
+    public: {
+      apiBase: process.env.NUXT_PUBLIC_API_BASE || "http://127.0.0.1:8000",
+    },
+  },
+});

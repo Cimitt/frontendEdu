@@ -23,7 +23,7 @@
             <NuxtLink> Video Interaktif </NuxtLink>
           </li>
           <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
-            <NuxtLink> Quiz Interaktif </NuxtLink>
+            <NuxtLink> Chat </NuxtLink>
           </li>
         </ul>
 
